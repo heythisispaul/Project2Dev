@@ -1,0 +1,79 @@
+body {
+	font-family: 'Merriweather', serif;
+	color: #fefefe;
+	background: #0e1111;
+	background-image: url("./imgs/headerBackground2.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
+}
+
+
+button.submit {
+  float: right;
+}
+
+form#cms {
+  margin-top: 50px;
+}
+
+#cms textarea {
+  resize: none;
+}
+
+.panel-heading button.delete,
+button.edit {
+  float: right;
+  margin: 5px;
+}
+
+.top-30 {
+  margin-top: 30px;
+}
+
+/*index (main) page jumbotron*/ 
+.jumbotron {
+	background-image: url("./imgs/questionMarks.jpg");
+	background-color: #0e1111;
+	/*background-size: 100%;*/
+	text-shadow: 3px 3px #392077;
+	text-align: center;
+}
+
+b, strong {
+	font-size: 200%;
+	color: #FEFEFE;
+	/* purple (color picked from background) */
+	/*text-shadow: 3px 3px #572E94;*/
+	/* yellow (color picked from background) */
+	/*text-shadow: 3px 3px #E8CA5F;*/
+	/* pink  #BF51A5  */
+	text-shadow: 3px 3px #8c3a79;
+	
+}
+
+.panel-primary,
+.panel-primary>.panel-heading,
+.panel-default>.panel-heading {
+	background-image: url("./imgs/questionMarks.jpg");
+	color: #fefefe;
+	text-shadow: 2px 2px #572E94;
+}
+
+.panel-body {
+	background: #0e1111;
+}
+
+.panel-default {
+	background-color: #0e1111;
+}
+
+.btn-primary, .center-block {
+	border: 3px solid #3A2D83;
+	background-color: #0e1111;
+}
+
+.center-block:hover {
+	background-color: #3A2D83;
+}
+
